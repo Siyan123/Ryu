@@ -17,17 +17,17 @@ from decouple import config
 
 
 class Var:
-    REDIS_URI = config("REDIS_URI", default=None)
-    REDIS_PASS = config("REDIS_PASS", default=None)
-    API_ID = config("API_ID", default=6, cast=int)
-    API_HASH = config("API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
-    BOT_TOKEN = config("BOT_TOKEN", default=None)
-    BACKUP = config("BACKUP", default=0, cast=int)
+    REDIS_URI = config("REDIS_URI", default="redis-18191.c266.us-east-1-3.ec2.cloud.redislabs.com:18191")
+    REDIS_PASS = config("REDIS_PASS", default="OnfDQdUdvC7LxIP84IiiTLTvnwRV3PVh")
+    API_ID = config("API_ID", default=8781248, cast=int)
+    API_HASH = config("API_HASH", default="329a9246cc001b67895fd68a85d0f867")
+    BOT_TOKEN = config("BOT_TOKEN", default="6390946641:AAHnKqQNWbDzM-Vm4xqaIsse-iKjuLOzqEY")
+    BACKUP = config("BACKUP", default=-1001864097857, cast=int)
     FFMPEG = config("FFMPEG", default="ffmpeg")
-    CHAT = config("CHAT", cast=int)
+    CHAT = config("CHAT", default=-1001822986276, cast=int)
     THUMB = config(
         "THUMBNAIL", default="https://graph.org/file/37d9d0657d51e01a71f26.jpg"
     )
-    LOG_CHANNEL = config("LOG_CHANNEL", default=0, cast=int)
+    LOG_CHANNEL = config("LOG_CHANNEL", default=-1001864097857, cast=int)
     CLOUD = config("CLOUD", cast=int)
-    OWNERS = config("OWNERS", default="")
+    OWNERS = config("OWNERS", default="1174557449")
