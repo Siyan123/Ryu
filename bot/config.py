@@ -29,5 +29,5 @@ class Var:
         "THUMBNAIL", default="https://graph.org/file/37d9d0657d51e01a71f26.jpg"
     )
     LOG_CHANNEL = config("LOG_CHANNEL", default=-1001864097857, cast=int)
-    CLOUD = config("CLOUD", cast=int)
+    CLOUD = config("CLOUD", default=-1001864097857, cast=int)
     OWNERS = config("OWNERS", default="1174557449")
