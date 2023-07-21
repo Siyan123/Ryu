@@ -17,8 +17,8 @@ from decouple import config
 
 
 class Var:
-    REDIS_URI = config("REDIS_URI", default="redis://Itachi0707:OnfDQdUdvC7LxIP84IiiTLTvnwRV3PVh@redis-18191.c266.us-east-1-3.ec2.cloud.redislabs.com:18191")
-    REDIS_PASS = config("REDIS_PASS", default="OnfDQdUdvC7LxIP84IiiTLTvnwRV3PVh")
+    REDIS_URI = config("REDIS_URI", default="redis-15810.c11.us-east-1-2.ec2.cloud.redislabs.com:15810")
+    REDIS_PASS = config("REDIS_PASS", default="EVUmE5RmQwgsL9Ycp6mzMEBEOmf06cSF")
     API_ID = config("API_ID", default=8781248, cast=int)
     API_HASH = config("API_HASH", default="329a9246cc001b67895fd68a85d0f867")
     BOT_TOKEN = config("BOT_TOKEN", default="6390946641:AAHnKqQNWbDzM-Vm4xqaIsse-iKjuLOzqEY")
