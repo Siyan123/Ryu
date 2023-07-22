@@ -263,7 +263,6 @@ async def geter(link, index=0):
                 )
                 if res:
                     append_name_in_memory(name, quality, in_memory=True)
-                    asyncio.ensure_future(further_work(msg_id, filename, quality))
     except Exception as error:
         LOGS.exception(format_exc())
         LOGS.exception(str(error))
