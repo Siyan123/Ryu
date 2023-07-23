@@ -98,7 +98,7 @@ async def _rename(name, og=None):
         anime_name = data.get("anime_title")
         if anime_name and data.get("episode_number"):
             return (
-                f"{data.get('episode_number') or ''}. {(await get_english(anime_name))} [{data.get('video_resolution')] @Anime_Bazaar.mkv".replace(
+                f"[AF] [S{data.get('anime_season') or 1}-{data.get('episode_number') or ''}] {(await get_english(anime_name))} [{data.get('video_resolution').replace('p', 'px264' if og else 'px265') or ''}].mkv".replace(
                     "‘", ""
                 )
                 .replace("’", "")
