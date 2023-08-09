@@ -21,7 +21,7 @@ class Var:
     REDIS_PASS = config("REDIS_PASS", default="EVUmE5RmQwgsL9Ycp6mzMEBEOmf06cSF")
     API_ID = config("API_ID", default=8781248, cast=int)
     API_HASH = config("API_HASH", default="329a9246cc001b67895fd68a85d0f867")
-    BOT_TOKEN = config("BOT_TOKEN", default="6518615858:AAEUlJ3QimHjOjXj-2zOCsiTIQC-pOKNhL8")
+    BOT_TOKEN = config("BOT_TOKEN", default="6390946641:AAHnKqQNWbDzM-Vm4xqaIsse-iKjuLOzqEY")
     BACKUP = config("BACKUP", default=-1001864097857, cast=int)
     FFMPEG = config("FFMPEG", default="ffmpeg")
     CHAT = config("CHAT", default=-1001822986276, cast=int)
